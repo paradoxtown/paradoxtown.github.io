@@ -1,0 +1,18 @@
+# Site settings
+title: "ParadoxTown"
+author: "Hugo Sereno Ferreira"
+description: "This is a blog about software, some mathematics, and the occasional philosophy. Not necessarily in that order."
+keywords: "Software Engineering, Mathematics, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
+biography: "I am a Prospective Master of Computer Science at the <a href='https://cs.nyu.edu/home/index.html'>Courant</a>, New York Universtiy and Undergraduate at <a href='https://ev.buaa.edu.cn/'>Beihang University</a>."
+colophon: "© MMXIII — MMXVI by Hugo Sereno Ferreira.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
+
+baseurl: ""
+url: "https://paradoxtown.github.io"
+
+twitter_username: paradoxtown
+github_username: paradoxtown
+
+simple_search: http://google.com/search
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
