@@ -15,6 +15,20 @@ body {
 
   a, a:hover {
     color: $alt-color;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    // text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+  }
+
+  .catalog, .catalog:hover {
+    color: $alt-color;
+    font-size: 1.0em;
+    font-variant: small-caps;
+    // text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: 0.15em;
   }
 
   p {
@@ -26,8 +40,8 @@ body {
       color: $alt-color-darker;
       display: inline-block;
       float: left;
-      font-size: 3.2em;
-      line-height: 0.7em;
+      font-size: 2.2em;
+      line-height: 1.7em;
       font-style: normal;
       font-weight: bold;
       margin: 0.12em 0.15em 0 -0.01em;
@@ -38,6 +52,11 @@ body {
 
   h1 {
     font-weight: 600;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    font-family: Georgia, serif;
   }
 
   h2 {
@@ -113,11 +132,11 @@ blockquote {
 
 .main {
   background-color: $article-bg-color;
-  border: 1px solid $bg-color-darker;
+  // border: 1px solid $bg-color-darker;
   margin-top: 16px;
-  padding: 16px;
-  border-radius: 4px;
-  border-top: 3px solid $alt-color;
+  padding: 60px;
+  border-radius: 16px;
+  // border-top: 3px solid $alt-color;
 }
 
 .small-ornament, .big-ornament {

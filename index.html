@@ -53,7 +53,16 @@ layout: default
       {% for category in categories %}
       <h3>On {{ category | first }}</h3>
       <p>{% for posts in category %} {% for post in posts %}
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>{% if forloop.last == false %},&nbsp;&nbsp;{% endif %}
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>{% if forloop.last == false %}<br>{% endif %}
+			<script type="text/javascript">
+				var articles = "{{ post.articles }}".split(" ")
+				if (articles.length != 1) {
+					for (i in articles) {
+						// document.write(articles[i] + "<br>")
+						document.write("<br>&nbsp;&nbsp;<a class=\"catalog\" href=\"{{ post.url | prepend: site.baseurl }}#" + articles[i].toLowerCase() + "\">&bull;&nbsp;" + articles[i] + "</a>")
+					}
+				}
+			</script>
         {% endfor %} {% endfor %}  </p>
       {% endfor %}
     </div>
