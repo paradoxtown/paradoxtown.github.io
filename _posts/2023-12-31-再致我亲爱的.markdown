@@ -24,7 +24,9 @@ categories: Love
 
 ---
 
-![love](https://raw.githubusercontent.com/paradoxtown/paradoxtown.github.io/master/img/2023_2.jpg){:height="504px" width="672px"}
+<!-- <p align="center">
+  <img style="border-radius: 3%; width: 50%;" src="https://raw.githubusercontent.com/paradoxtown/paradoxtown.github.io/master/img/2023_2.jpg" />
+</p> -->
 
 久久呆在桌前，深呼吸一口之后，我想，我真的很想念那个和你坐在拉罗谢尔港口的夜晚。你穿着白色的短袖，我就盯着你看，你知道我很喜欢盯着你看。风不大，浅浅吹起你几根头发。
 
@@ -36,7 +38,22 @@ categories: Love
 
 ---
 
-![love](https://raw.githubusercontent.com/paradoxtown/paradoxtown.github.io/master/img/2023_1.jpg){:height="504px" width="672px"}
+<body>
+    <div style="display: flex; justify-content: space-between;">
+        <div style="flex: 1;">
+            <img src="https://raw.githubusercontent.com/paradoxtown/paradoxtown.github.io/master/img/2023_2.jpg" alt="Image 1" style="max-width: 100%; height: auto;">
+        </div>
+        <div style="flex: 1;">
+            <img src="https://raw.githubusercontent.com/paradoxtown/paradoxtown.github.io/master/img/2023_1.jpg" alt="Image 2" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+</body>
+
+---
+
+<!-- <p align="center">
+  <img style="border-radius: 3%; width: 50%;" src="https://raw.githubusercontent.com/paradoxtown/paradoxtown.github.io/master/img/2023_1.jpg" width="50%"/>
+</p> -->
 
 一月二号，我踏上了从拉罗前往南特的列车。我坐在列车的左侧，向右，透过一桌欢声笑语的女孩看向窗外的你，你站在车窗前显得有些局促。我迅速起身来到车门的窗前。
 
