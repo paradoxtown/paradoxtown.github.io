@@ -14,7 +14,7 @@ categories: Love
 
 对我而言，四月，是春色正盛的季节。她勃勃的生机掩盖了隐藏在从冷冬而来一切腐朽和萧瑟。对我而言，四月，我是不可否认的快乐。
 
-而十二月，终成了我的残忍的季节。惶恐，小心翼翼。你和生活留给了我太多需要完成的课程。
+而十二月，终成了我的残忍的季节。惶恐，小心翼翼。你和生活留给了我太多需要完成的课题。
 
 我见识到了爱意是如何被麻痹的。我见识到了自己是如何一步步变得无趣的。我清楚的意识到，写这封信的自己早就换了心情。
 
@@ -24,9 +24,6 @@ categories: Love
 
 ---
 
-<!-- <p align="center">
-  <img style="border-radius: 3%; width: 50%;" src="https://raw.githubusercontent.com/paradoxtown/paradoxtown.github.io/master/img/2023_2.jpg" />
-</p> -->
 
 久久呆在桌前，深呼吸一口之后，我想，我真的很想念那个和你坐在拉罗谢尔港口的夜晚。你穿着白色的短袖，我就盯着你看，你知道我很喜欢盯着你看。风不大，浅浅吹起你几根头发。
 
@@ -50,10 +47,6 @@ categories: Love
 </body>
 
 ---
-
-<!-- <p align="center">
-  <img style="border-radius: 3%; width: 50%;" src="https://raw.githubusercontent.com/paradoxtown/paradoxtown.github.io/master/img/2023_1.jpg" width="50%"/>
-</p> -->
 
 一月二号，我踏上了从拉罗前往南特的列车。我坐在列车的左侧，向右，透过一桌欢声笑语的女孩看向窗外的你，你站在车窗前显得有些局促。我迅速起身来到车门的窗前。
 
