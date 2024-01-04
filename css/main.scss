@@ -11,14 +11,15 @@ $base-line-height: 1.5;
 
 $mono-font-family: 'Source Code Pro', Menlo, Monaco, Inconsolata;
 
-$text-color:       hsl(0, 0%, 25%);
+$text-color:       hsla(0, 0%, 90%, 0.5);
 
-$alt-color:        hsl(0, 70%, 46%);
+// $alt-color:        hsl(0, 70%, 46%);
+$alt-color: hsla(0, 0%, 90%, 0.7);
 $alt-color-darker: darken($alt-color, 6%);
 
-$article-bg-color: #f8f9fa;
-$background-color: darken($article-bg-color, 6%);
-$bg-color-darker:  darken($article-bg-color, 15%);
+$article-bg-color: hsl(0deg, 0%, 16%);
+$background-color: hsl(0deg, 0%, 24%);
+$bg-color-darker:  darken($article-bg-color, 6%);
 $alt-text-color:   darken($article-bg-color, 60%);
 
 $subdued-border:   rgba($bg-color-darker, 0.5);

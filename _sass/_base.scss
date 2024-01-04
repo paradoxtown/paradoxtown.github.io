@@ -1,19 +1,37 @@
+.container {
+  width: 80%;
+  min-width: 640px;
+  max-width: 768px;
+  background-color: $article-bg-color;
+  margin-block-start: 48px;
+  margin-block-end: 72px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-block-start: 48px;
+  padding-block-end: 48px;
+  padding-inline-start: 48px;
+  padding-inline-end: 48px;
+  border-radius: 2px;
+  box-shadow: 0 8px 32px hsla(0deg, 0%, 0%, 0.32);
+}
+
 body {
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-feature-settings: "kern", "liga=1, dlig=1", "salt";
-  -ms-font-feature-settings: "kern", "liga", "dlig", "salt";
-  -webkit-font-feature-settings: "kern", "liga", "dlig", "salt";
-  -o-font-feature-settings: "kern", "liga", "dlig", "salt";
-  font-feature-settings: "kern", "liga", "dlig", "salt";
-  text-rendering: optimizeLegibility;
+  // -webkit-text-size-adjust: 100%;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-font-feature-settings: "kern", "liga=1, dlig=1", "salt";
+  // -ms-font-feature-settings: "kern", "liga", "dlig", "salt";
+  // -webkit-font-feature-settings: "kern", "liga", "dlig", "salt";
+  // -o-font-feature-settings: "kern", "liga", "dlig", "salt";
+  // font-feature-settings: "kern", "liga", "dlig", "salt";
+  // text-rendering: optimizeLegibility;
 
   background-color: $background-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
   color: $text-color;
 
-  a, a:hover {
+  a,
+  a:hover {
     color: $alt-color;
     font-size: 1.2em;
     font-variant: small-caps;
@@ -22,7 +40,8 @@ body {
     letter-spacing: 0.15em;
   }
 
-  .catalog, .catalog:hover {
+  .catalog,
+  .catalog:hover {
     color: $alt-color;
     font-size: 1.0em;
     font-variant: small-caps;
@@ -35,19 +54,19 @@ body {
     line-height: $base-line-height;
   }
 
-  article > :first-child {
+  article> :first-child {
     &:first-letter {
-      color: $alt-color-darker;
+      color: $background-color;
       display: inline-block;
       float: left;
-      font-size: 2.2em;
-      line-height: 1.7em;
+      font-size: 2em;
+      line-height: 2.5em;
       font-style: normal;
       font-weight: bold;
       margin: 0.12em 0.15em 0 -0.01em;
     }
 
-    min-height: 2em + $base-line-height;
+    min-height: 2em+$base-line-height;
   }
 
   h1 {
@@ -57,6 +76,7 @@ body {
     font-weight: bold;
     letter-spacing: 0.15em;
     font-family: Georgia, serif;
+    margin-top: 0.6em;
   }
 
   h2 {
@@ -87,14 +107,15 @@ article {
     margin-left: 0;
   }
 
-  ul > li:before {
+  ul>li:before {
     position: absolute;
     content: "▪";
     color: $alt-color;
     left: -1.15em;
   }
 
-  pre, code {
+  pre,
+  code {
     background-color: $background-color;
   }
 
@@ -130,32 +151,28 @@ blockquote {
   }
 }
 
-.main {
-  background-color: $article-bg-color;
-  // border: 1px solid $bg-color-darker;
-  margin-top: 16px;
-  padding: 60px;
-  border-radius: 16px;
-  // border-top: 3px solid $alt-color;
+main {
+  display: block;
 }
 
-.small-ornament, .big-ornament {
-  > svg {
+.small-ornament,
+.big-ornament {
+  >svg {
     display: inline-block;
     vertical-align: middle;
     width: 40px;
     height: 40px;
 
     path {
-        fill: $alt-color-darker;
-        fill-rule: evenodd;
-        shape-rendering: geometricPrecision;
+      fill: $alt-color-darker;
+      fill-rule: evenodd;
+      shape-rendering: geometricPrecision;
     }
   }
 }
 
 .big-ornament {
-  > svg {
+  >svg {
     width: 14em;
     height: 4em;
     margin-top: 2em;
@@ -193,7 +210,8 @@ footer {
     letter-spacing: 0.15em;
   }
 
-  a, a:hover {
+  a,
+  a:hover {
     color: $alt-color-darker;
   }
 }
@@ -203,16 +221,17 @@ footer {
   padding-top: 1em;
   margin-top: 2em;
 
-  ul, ol {
+  ul,
+  ol {
     margin-left: -2em;
   }
 
-  > ol {
+  >ol {
     margin-left: -1.5em;
   }
 }
 
-sup > .footnote {
+sup>.footnote {
   margin-left: -0.2em;
   font-style: normal;
 }
@@ -228,7 +247,8 @@ table {
   background-color: $background-color;
   border-left: 2.5pt solid $alt-color;
 
-  td, th {
+  td,
+  th {
     display: table-cell;
     vertical-align: inherit;
     border: 0;
